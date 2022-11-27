@@ -1,1 +1,3 @@
-# GitHub-Finder
+# TypeScript
+
+# Проект GitHub user finder
