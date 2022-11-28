@@ -1,14 +1,14 @@
 import styles from './UserStat.module.scss';
 import {LocalGithubUser} from "../../types";
 
-export interface UserStatProps extends Pick<LocalGithubUser, 'repos'| 'following'| 'followers'>{}
+export interface UserStatProps extends Pick<LocalGithubUser, 'repos' | 'following' | 'followers'> {
+}
 
-export interface UserStatProps extends Pick<
-    LocalGithubUser,
-    'repos' | 'followers' | 'following'
-    > {}
+export interface UserStatProps extends Pick<LocalGithubUser,
+    'repos' | 'followers' | 'following'> {
+}
 
-export const UserStat = ({ repos, followers, following }: UserStatProps) => (
+export const UserStat = ({repos, followers, following}: UserStatProps) => (
     <div className={styles.userStat}>
         <div className={styles.info}>
             <div className={styles.infoTitle}>Repos</div>
