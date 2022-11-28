@@ -7,7 +7,7 @@ interface ButtonProps {
 }
 
 export const Button = ({children, onClick}: ButtonProps) => (
-  <button className={styles.button} onClick={onClick}>
-    {children}
-  </button>
+    <button className={styles.button} onClick={onClick}>
+        {children}
+    </button>
 );

@@ -8,6 +8,6 @@ export const TheHeader = () => (
         <div className={styles.logo}>
             devfinder
         </div>
-        <ThemeSwitcher />
+        <ThemeSwitcher/>
     </div>
 );
